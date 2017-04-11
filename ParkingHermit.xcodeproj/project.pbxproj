@@ -15,6 +15,8 @@
 		DAB900FA1E9C7953002D3CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB900F81E9C7953002D3CD6 /* LaunchScreen.storyboard */; };
 		DAB901051E9C7953002D3CD6 /* ParkingHermitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB901041E9C7953002D3CD6 /* ParkingHermitTests.swift */; };
 		DAB901101E9C7953002D3CD6 /* ParkingHermitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9010F1E9C7953002D3CD6 /* ParkingHermitUITests.swift */; };
+		DAB9011E1E9D6007002D3CD6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9011D1E9D6007002D3CD6 /* ThirdViewController.swift */; };
+		DAB901201E9D602F002D3CD6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9011F1E9D602F002D3CD6 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DAB9010B1E9C7953002D3CD6 /* ParkingHermitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingHermitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB9010F1E9C7953002D3CD6 /* ParkingHermitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingHermitUITests.swift; sourceTree = "<group>"; };
 		DAB901111E9C7953002D3CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB9011D1E9D6007002D3CD6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DAB9011F1E9D602F002D3CD6 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				DAB900ED1E9C7953002D3CD6 /* AppDelegate.swift */,
 				DAB900EF1E9C7953002D3CD6 /* FirstViewController.swift */,
 				DAB900F11E9C7953002D3CD6 /* SecondViewController.swift */,
+				DAB9011D1E9D6007002D3CD6 /* ThirdViewController.swift */,
+				DAB9011F1E9D602F002D3CD6 /* FourthViewController.swift */,
 				DAB900F31E9C7953002D3CD6 /* Main.storyboard */,
 				DAB900F61E9C7953002D3CD6 /* Assets.xcassets */,
 				DAB900F81E9C7953002D3CD6 /* LaunchScreen.storyboard */,
@@ -264,7 +270,9 @@
 			files = (
 				DAB900F21E9C7953002D3CD6 /* SecondViewController.swift in Sources */,
 				DAB900EE1E9C7953002D3CD6 /* AppDelegate.swift in Sources */,
+				DAB9011E1E9D6007002D3CD6 /* ThirdViewController.swift in Sources */,
 				DAB900F01E9C7953002D3CD6 /* FirstViewController.swift in Sources */,
+				DAB901201E9D602F002D3CD6 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
