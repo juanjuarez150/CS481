@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
 
 enum PassType: String {  // this is going to tell us what pass types can exist
     case text = "Text"
@@ -32,4 +34,14 @@ class TextData: PassData { //this holds the text data for our PassData
             super.init(passType: .text)
             print ("Text snippet data: \(textData)")
         }
+}
+
+class PhotoData: PassData {
+    let photoData: UIImage
+    
+    init ( photo: UIImage ) {
+        photoData = photo
+        super.init(passType: .photo)
+        print ("Photo snippet data: \(photoData)")
     }
+}

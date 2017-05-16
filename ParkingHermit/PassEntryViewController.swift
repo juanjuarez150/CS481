@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 class PassEntryViewController: UIViewController {
+    
     @IBOutlet weak var textView: UITextView!
     
     var saveText: (_ text: String) -> Void = { (text:String) in }
@@ -40,4 +41,5 @@ extension PassEntryViewController : UITextViewDelegate { //this saves the text
             saveText(textView.text)
             dismiss(animated: true, completion: nil)
         }
-    }
+}
+
