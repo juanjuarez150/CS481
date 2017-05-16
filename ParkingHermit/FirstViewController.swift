@@ -22,11 +22,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func createNewPass(_ sender: Any) {
+    @IBAction func createNewPass(_ sender: Any) { //create the AlertController which confirms if you want to create a new pass
         
         let alert = UIAlertController(title: "Create New Pass?", message: nil, preferredStyle: .actionSheet)
         let textAction = UIAlertAction(title: "New Pass", style: .default) { (alert: UIAlertAction!) -> Void in
-            self.data.append(PassData(passType: .text))
+            self.createFullPass()
         }
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
@@ -34,6 +34,21 @@ class FirstViewController: UIViewController {
         alert.addAction(textAction)
         alert.addAction(cancelAction)
         present(alert, animated: true, completion:nil)
+        
+    }
+    
+    func createFullPass () {
+        guard let textEntryVC = storyboard?.instantiateViewController(withIdentifier: "passEntry") as? PassEntryViewController else {
+            print("TextSnippetEntryViewController could not be instantiated from storyboard")
+            return
+        }
+        
+        textEntryVC.modalTransitionStyle = .coverVertical
+        textEntryVC.saveText = { ( text: String ) in
+            let fullPass = TextData(text: text)
+            self.data.append(fullPass)
+        }
+        present(textEntryVC,animated:true, completion:nil)
         
     }
 

@@ -13,7 +13,7 @@ enum PassType: String {  // this is going to tell us what pass types can exist
     case photo = "Photo"
 }
 
-struct PassData {
+class PassData { // this class is for the PassData that will allow us to add the pics and text
     
     let type: PassType
     
@@ -21,5 +21,15 @@ struct PassData {
         type = passType
         print ("\(type.rawValue) pass created")
     }
-    
 }
+
+class TextData: PassData { //this holds the text data for our PassData
+    
+    let textData: String
+        
+        init ( text: String ) {
+            textData = text
+            super.init(passType: .text)
+            print ("Text snippet data: \(textData)")
+        }
+    }

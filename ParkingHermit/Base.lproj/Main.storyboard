@@ -48,7 +48,7 @@
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.46743124050000001" green="0.65894954149999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
@@ -61,6 +61,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Pass Entry View Controller-->
+        <scene sceneID="pPk-FS-3C9">
+            <objects>
+                <viewController storyboardIdentifier="passEntry" id="1Hn-Th-C8U" customClass="PassEntryViewController" customModule="ParkingHermit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2bW-ht-zVM"/>
+                        <viewControllerLayoutGuide type="bottom" id="v8T-Cg-vsf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v7Z-Ng-cHp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter Pass Details Here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-Op-ghF">
+                                <rect key="frame" x="0.0" y="340" width="375" height="77"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1Hn-Th-C8U" id="srQ-Nd-zuV"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.46743124050000001" green="0.65894954149999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="VfG-Op-ghF" firstAttribute="leading" secondItem="v7Z-Ng-cHp" secondAttribute="leading" id="1kB-W9-6B5"/>
+                            <constraint firstAttribute="trailing" secondItem="VfG-Op-ghF" secondAttribute="trailing" id="7W7-8W-szO"/>
+                            <constraint firstItem="VfG-Op-ghF" firstAttribute="top" secondItem="2bW-ht-zVM" secondAttribute="bottom" constant="320" id="dUB-YZ-P8L"/>
+                            <constraint firstItem="v8T-Cg-vsf" firstAttribute="top" secondItem="VfG-Op-ghF" secondAttribute="bottom" constant="250" id="fYH-dF-y6U"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="VfG-Op-ghF" id="OWJ-LK-5hW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RvE-Fp-5Bf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400.8" y="-321.58920539730138"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -88,7 +126,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.61647947309999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
@@ -122,7 +160,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.87146845978901855" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Third" id="vIe-Mi-wvJ"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -151,7 +189,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.58673169870035768" blue="0.61469268520118603" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fourth" id="SxW-WY-ii5"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
