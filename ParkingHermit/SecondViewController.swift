@@ -11,6 +11,7 @@ import UIKit
 class SecondViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,8 +24,8 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 /*
+
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -37,7 +38,7 @@ class SecondViewController: UIViewController {
         
         let cell: UITableViewCell 
         
-        let sortedData = data.reversed() as [SnippetData]
+        let sortedData = data.reversed() as [PassData]
         let snippetData = sortedData[indexPath.row]
         
         switch snippetData.type
@@ -53,10 +54,10 @@ class SecondViewController: UIViewController {
         
         return cell
     }
-    
+ 
 }
 
 extension SecondViewController: UITableViewDataSource {
-  */  
+*/
 }
 

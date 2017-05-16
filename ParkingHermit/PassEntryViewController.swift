@@ -14,10 +14,13 @@ class PassEntryViewController: UIViewController {
     
     var saveText: (_ text: String) -> Void = { (text:String) in }
     
+    let imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.inputAccessoryView = createKeyboardToolbar()
         textView.becomeFirstResponder()
+        imagePicker.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -47,14 +50,52 @@ class PassEntryViewController: UIViewController {
     
     func doneButtonPressed() { // implements the done button
         textView.resignFirstResponder()
+        self.createNewPhotoSnippet()
     }
 
+   /* @IBAction func addImage(_ sender: Any) {
+        
+        self.createNewPhotoSnippet()
+        
+        } */
+
+    func createNewPhotoSnippet () {
+        guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
+            print ("Camera is not available")
+            return
+        }
+        
+        imagePicker.allowsEditing = true
+        imagePicker.sourceType = .camera
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+
+    
 }
 
 extension PassEntryViewController : UITextViewDelegate { //this saves the text
         func textViewDidEndEditing(_ textView: UITextView) {
             saveText(textView.text)
+            
             dismiss(animated: true, completion: nil)
         }
 }
+
+extension PassEntryViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+            guard let image = info[UIImagePickerControllerEditedImage] as? UIImage else {
+                print("Image could not be found")
+                return
+            }
+            
+      //      let newPhotoSnippet = PhotoData(photo: image)
+      //      self.data.append(newPhotoSnippet)
+            
+            dismiss(animated: true, completion: nil)
+        }
+        
+    }
+
 
