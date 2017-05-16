@@ -22,8 +22,21 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func CreateNewPassPost(_ sender: Any) {
+    @IBAction func createNewPass(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Create New Pass?", message: nil, preferredStyle: .actionSheet)
+        let textAction = UIAlertAction(title: "New Pass", style: .default) { (alert: UIAlertAction!) -> Void in
+            self.data.append(PassData(passType: .text))
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        alert.addAction(textAction)
+        alert.addAction(cancelAction)
+        present(alert, animated: true, completion:nil)
+        
     }
+
 
 }
 

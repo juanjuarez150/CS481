@@ -8,10 +8,18 @@
 
 import Foundation
 
+enum PassType: String {  // this is going to tell us what pass types can exist
+    case text = "Text"
+    case photo = "Photo"
+}
+
 struct PassData {
     
-    init() {
-        print ("new Pass created")
+    let type: PassType
+    
+    init ( passType: PassType ) {
+        type = passType
+        print ("\(type.rawValue) pass created")
     }
     
 }
