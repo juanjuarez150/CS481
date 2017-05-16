@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ABDAA6E1ECAA59700DC676F /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA6D1ECAA59700DC676F /* PassData.swift */; };
 		DAB900EE1E9C7953002D3CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB900ED1E9C7953002D3CD6 /* AppDelegate.swift */; };
 		DAB900F01E9C7953002D3CD6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB900EF1E9C7953002D3CD6 /* FirstViewController.swift */; };
 		DAB900F21E9C7953002D3CD6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB900F11E9C7953002D3CD6 /* SecondViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ABDAA6D1ECAA59700DC676F /* PassData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
 		DAB900EA1E9C7953002D3CD6 /* ParkingHermit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingHermit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB900ED1E9C7953002D3CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB900EF1E9C7953002D3CD6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				DAB9011D1E9D6007002D3CD6 /* ThirdViewController.swift */,
 				DAB9011F1E9D602F002D3CD6 /* FourthViewController.swift */,
 				DAB900F31E9C7953002D3CD6 /* Main.storyboard */,
+				1ABDAA6D1ECAA59700DC676F /* PassData.swift */,
 				DAB900F61E9C7953002D3CD6 /* Assets.xcassets */,
 				DAB900F81E9C7953002D3CD6 /* LaunchScreen.storyboard */,
 				DAB900FB1E9C7953002D3CD6 /* Info.plist */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABDAA6E1ECAA59700DC676F /* PassData.swift in Sources */,
 				DAB900F21E9C7953002D3CD6 /* SecondViewController.swift in Sources */,
 				DAB900EE1E9C7953002D3CD6 /* AppDelegate.swift in Sources */,
 				DAB9011E1E9D6007002D3CD6 /* ThirdViewController.swift in Sources */,
@@ -519,6 +523,7 @@
 				DAB901161E9C7953002D3CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAB901171E9C7953002D3CD6 /* Build configuration list for PBXNativeTarget "ParkingHermitTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +532,7 @@
 				DAB901191E9C7953002D3CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAB9011A1E9C7953002D3CD6 /* Build configuration list for PBXNativeTarget "ParkingHermitUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +541,7 @@
 				DAB9011C1E9C7953002D3CD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
