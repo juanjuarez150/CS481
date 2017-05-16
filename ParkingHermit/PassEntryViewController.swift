@@ -20,6 +20,21 @@ class PassEntryViewController: UIViewController {
         textView.becomeFirstResponder()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let isLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn");
+        
+        if(!isLoggedIn)
+        {
+            self.performSegue(withIdentifier: "SignInView", sender: self);
+        }
+        
+        
+    }
+    
+    
+
+
     func createKeyboardToolbar () -> UIView { //creates the keyboard
         let keyboardToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 44))
         

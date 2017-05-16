@@ -51,6 +51,16 @@ class FirstViewController: UIViewController {
         present(textEntryVC,animated:true, completion:nil)
         
     }
+    
+    
+    @IBAction func LogOutButtonTouch(_ sender: UIButton) {
+        
+            UserDefaults.standard.set(false,forKey:"isUserLoggedIn");
+            UserDefaults.standard.synchronize();
+            
+            self.performSegue(withIdentifier: "loginView2", sender: self);
+        }
+    }
 
-}
+
 
