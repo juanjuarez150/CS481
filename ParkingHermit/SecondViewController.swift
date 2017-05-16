@@ -24,7 +24,7 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+/*
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -57,6 +57,6 @@ class SecondViewController: UIViewController {
 }
 
 extension SecondViewController: UITableViewDataSource {
-    
+  */  
 }
 
