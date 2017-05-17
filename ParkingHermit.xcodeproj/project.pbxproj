@@ -11,6 +11,9 @@
 		1ABDAA701ECAB04000DC676F /* PassEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA6F1ECAB04000DC676F /* PassEntryViewController.swift */; };
 		1ABDAA721ECAE13000DC676F /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA711ECAE13000DC676F /* TextCell.swift */; };
 		1ABDAA741ECAE14300DC676F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA731ECAE14300DC676F /* PhotoCell.swift */; };
+		6BDE242D1ECBD6BE00CB8968 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */; };
+		6BDE242F1ECBD7A900CB8968 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE242E1ECBD7A900CB8968 /* Messages.framework */; };
+		6BDE24311ECBD92100CB8968 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE24301ECBD92100CB8968 /* MessageUI.framework */; };
 		6BF322151ECB655C003133C9 /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322141ECB655C003133C9 /* ProtectedViewController.swift */; };
 		6BF322171ECB6D62003133C9 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322161ECB6D62003133C9 /* RegisterPageViewController.swift */; };
 		6BF322191ECB81E9003133C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322181ECB81E9003133C9 /* LoginViewController.swift */; };
@@ -48,6 +51,9 @@
 		1ABDAA6F1ECAB04000DC676F /* PassEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassEntryViewController.swift; sourceTree = "<group>"; };
 		1ABDAA711ECAE13000DC676F /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		1ABDAA731ECAE14300DC676F /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6BDE242E1ECBD7A900CB8968 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		6BDE24301ECBD92100CB8968 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		6BF322141ECB655C003133C9 /* ProtectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
 		6BF322161ECB6D62003133C9 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		6BF322181ECB81E9003133C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDE24311ECBD92100CB8968 /* MessageUI.framework in Frameworks */,
+				6BDE242F1ECBD7A900CB8968 /* Messages.framework in Frameworks */,
+				6BDE242D1ECBD6BE00CB8968 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +103,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BDE242B1ECBD6BE00CB8968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE24301ECBD92100CB8968 /* MessageUI.framework */,
+				6BDE242E1ECBD7A900CB8968 /* Messages.framework */,
+				6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAB900E11E9C7953002D3CD6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +120,7 @@
 				DAB901031E9C7953002D3CD6 /* ParkingHermitTests */,
 				DAB9010E1E9C7953002D3CD6 /* ParkingHermitUITests */,
 				DAB900EB1E9C7953002D3CD6 /* Products */,
+				6BDE242B1ECBD6BE00CB8968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,6 +244,11 @@
 					DAB900E91E9C7953002D3CD6 = {
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DAB900FF1E9C7953002D3CD6 = {
 						CreatedOnToolsVersion = 8.3;
