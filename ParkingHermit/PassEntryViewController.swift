@@ -20,7 +20,6 @@ class PassEntryViewController: UIViewController {
         super.viewDidLoad()
         textView.inputAccessoryView = createKeyboardToolbar()
         textView.becomeFirstResponder()
-        imagePicker.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -50,14 +49,10 @@ class PassEntryViewController: UIViewController {
     
     func doneButtonPressed() { // implements the done button
         textView.resignFirstResponder()
-        self.createNewPhotoSnippet()
+        
     }
 
-   /* @IBAction func addImage(_ sender: Any) {
-        
-        self.createNewPhotoSnippet()
-        
-        } */
+
 
     func createNewPhotoSnippet () {
         guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
@@ -75,27 +70,11 @@ class PassEntryViewController: UIViewController {
 }
 
 extension PassEntryViewController : UITextViewDelegate { //this saves the text
-        func textViewDidEndEditing(_ textView: UITextView) {
-            saveText(textView.text)
-            
-            dismiss(animated: true, completion: nil)
-        }
-}
-
-extension PassEntryViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func textViewDidEndEditing(_ textView: UITextView) {
+        saveText(textView.text)
         
-        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-            guard let image = info[UIImagePickerControllerEditedImage] as? UIImage else {
-                print("Image could not be found")
-                return
-            }
-            
-      //      let newPhotoSnippet = PhotoData(photo: image)
-      //      self.data.append(newPhotoSnippet)
-            
-            dismiss(animated: true, completion: nil)
-        }
-        
+        dismiss(animated: true, completion: nil)
     }
+}
 
 

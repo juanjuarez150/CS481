@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A580A911ECC03A7003CE49B /* TextSnippetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A580A901ECC03A7003CE49B /* TextSnippetCell.swift */; };
+		1A580A931ECC03B6003CE49B /* PhotoSnippetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A580A921ECC03B6003CE49B /* PhotoSnippetCell.swift */; };
+		1A580A951ECC0B5E003CE49B /* Image uploaded from iOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A580A941ECC0B5E003CE49B /* Image uploaded from iOS.jpg */; };
+		1A580A971ECC0B63003CE49B /* campusmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A580A961ECC0B63003CE49B /* campusmap.jpg */; };
+		1A580A991ECC0B68003CE49B /* csusmlogo_textonlyinitials_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A580A981ECC0B68003CE49B /* csusmlogo_textonlyinitials_white.png */; };
 		1ABDAA6E1ECAA59700DC676F /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA6D1ECAA59700DC676F /* PassData.swift */; };
 		1ABDAA701ECAB04000DC676F /* PassEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA6F1ECAB04000DC676F /* PassEntryViewController.swift */; };
-		1ABDAA721ECAE13000DC676F /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA711ECAE13000DC676F /* TextCell.swift */; };
-		1ABDAA741ECAE14300DC676F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDAA731ECAE14300DC676F /* PhotoCell.swift */; };
 		6BDE242D1ECBD6BE00CB8968 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */; };
 		6BDE242F1ECBD7A900CB8968 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE242E1ECBD7A900CB8968 /* Messages.framework */; };
 		6BDE24311ECBD92100CB8968 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE24301ECBD92100CB8968 /* MessageUI.framework */; };
-		6BDE24331ECBEC4800CB8968 /* Image uploaded from iOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE24321ECBEC4800CB8968 /* Image uploaded from iOS.jpg */; };
-		6BDE24371ECBF21300CB8968 /* campusmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE24361ECBF21300CB8968 /* campusmap.jpg */; };
-		6BDE24391ECBF2B700CB8968 /* csusmlogo_textonlyinitials_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE24381ECBF2B700CB8968 /* csusmlogo_textonlyinitials_white.png */; };
 		6BF322151ECB655C003133C9 /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322141ECB655C003133C9 /* ProtectedViewController.swift */; };
 		6BF322171ECB6D62003133C9 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322161ECB6D62003133C9 /* RegisterPageViewController.swift */; };
 		6BF322191ECB81E9003133C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322181ECB81E9003133C9 /* LoginViewController.swift */; };
@@ -50,16 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A580A901ECC03A7003CE49B /* TextSnippetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSnippetCell.swift; sourceTree = "<group>"; };
+		1A580A921ECC03B6003CE49B /* PhotoSnippetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSnippetCell.swift; sourceTree = "<group>"; };
+		1A580A941ECC0B5E003CE49B /* Image uploaded from iOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image uploaded from iOS.jpg"; sourceTree = "<group>"; };
+		1A580A961ECC0B63003CE49B /* campusmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = campusmap.jpg; sourceTree = "<group>"; };
+		1A580A981ECC0B68003CE49B /* csusmlogo_textonlyinitials_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = csusmlogo_textonlyinitials_white.png; sourceTree = "<group>"; };
 		1ABDAA6D1ECAA59700DC676F /* PassData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
 		1ABDAA6F1ECAB04000DC676F /* PassEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassEntryViewController.swift; sourceTree = "<group>"; };
-		1ABDAA711ECAE13000DC676F /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
-		1ABDAA731ECAE14300DC676F /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6BDE242E1ECBD7A900CB8968 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		6BDE24301ECBD92100CB8968 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		6BDE24321ECBEC4800CB8968 /* Image uploaded from iOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image uploaded from iOS.jpg"; path = "../../Image uploaded from iOS.jpg"; sourceTree = "<group>"; };
-		6BDE24361ECBF21300CB8968 /* campusmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = campusmap.jpg; path = ../../campusmap.jpg; sourceTree = "<group>"; };
-		6BDE24381ECBF2B700CB8968 /* csusmlogo_textonlyinitials_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = csusmlogo_textonlyinitials_white.png; path = ../../csusmlogo_textonlyinitials_white.png; sourceTree = "<group>"; };
 		6BF322141ECB655C003133C9 /* ProtectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
 		6BF322161ECB6D62003133C9 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		6BF322181ECB81E9003133C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -143,17 +143,17 @@
 		DAB900EC1E9C7953002D3CD6 /* ParkingHermit */ = {
 			isa = PBXGroup;
 			children = (
-				6BDE24381ECBF2B700CB8968 /* csusmlogo_textonlyinitials_white.png */,
-				6BDE24361ECBF21300CB8968 /* campusmap.jpg */,
-				6BDE24321ECBEC4800CB8968 /* Image uploaded from iOS.jpg */,
+				1A580A981ECC0B68003CE49B /* csusmlogo_textonlyinitials_white.png */,
+				1A580A961ECC0B63003CE49B /* campusmap.jpg */,
+				1A580A941ECC0B5E003CE49B /* Image uploaded from iOS.jpg */,
 				DAB900ED1E9C7953002D3CD6 /* AppDelegate.swift */,
 				DAB900EF1E9C7953002D3CD6 /* FirstViewController.swift */,
 				DAB900F11E9C7953002D3CD6 /* SecondViewController.swift */,
 				DAB9011D1E9D6007002D3CD6 /* ThirdViewController.swift */,
 				DAB9011F1E9D602F002D3CD6 /* FourthViewController.swift */,
 				DAB900F31E9C7953002D3CD6 /* Main.storyboard */,
-				1ABDAA711ECAE13000DC676F /* TextCell.swift */,
-				1ABDAA731ECAE14300DC676F /* PhotoCell.swift */,
+				1A580A901ECC03A7003CE49B /* TextSnippetCell.swift */,
+				1A580A921ECC03B6003CE49B /* PhotoSnippetCell.swift */,
 				1ABDAA6D1ECAA59700DC676F /* PassData.swift */,
 				1ABDAA6F1ECAB04000DC676F /* PassEntryViewController.swift */,
 				DAB900F61E9C7953002D3CD6 /* Assets.xcassets */,
@@ -252,6 +252,7 @@
 				TargetAttributes = {
 					DAB900E91E9C7953002D3CD6 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = QS3LUGPAGF;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -298,10 +299,10 @@
 			files = (
 				DAB900FA1E9C7953002D3CD6 /* LaunchScreen.storyboard in Resources */,
 				DAB900F71E9C7953002D3CD6 /* Assets.xcassets in Resources */,
-				6BDE24391ECBF2B700CB8968 /* csusmlogo_textonlyinitials_white.png in Resources */,
-				6BDE24331ECBEC4800CB8968 /* Image uploaded from iOS.jpg in Resources */,
+				1A580A991ECC0B68003CE49B /* csusmlogo_textonlyinitials_white.png in Resources */,
+				1A580A951ECC0B5E003CE49B /* Image uploaded from iOS.jpg in Resources */,
 				DAB900F51E9C7953002D3CD6 /* Main.storyboard in Resources */,
-				6BDE24371ECBF21300CB8968 /* campusmap.jpg in Resources */,
+				1A580A971ECC0B63003CE49B /* campusmap.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,15 +329,15 @@
 			files = (
 				6BF322191ECB81E9003133C9 /* LoginViewController.swift in Sources */,
 				1ABDAA6E1ECAA59700DC676F /* PassData.swift in Sources */,
-				1ABDAA741ECAE14300DC676F /* PhotoCell.swift in Sources */,
 				1ABDAA701ECAB04000DC676F /* PassEntryViewController.swift in Sources */,
 				6BF322151ECB655C003133C9 /* ProtectedViewController.swift in Sources */,
 				DAB900F21E9C7953002D3CD6 /* SecondViewController.swift in Sources */,
 				6BF322171ECB6D62003133C9 /* RegisterPageViewController.swift in Sources */,
+				1A580A911ECC03A7003CE49B /* TextSnippetCell.swift in Sources */,
 				DAB900EE1E9C7953002D3CD6 /* AppDelegate.swift in Sources */,
 				DAB9011E1E9D6007002D3CD6 /* ThirdViewController.swift in Sources */,
 				DAB900F01E9C7953002D3CD6 /* FirstViewController.swift in Sources */,
-				1ABDAA721ECAE13000DC676F /* TextCell.swift in Sources */,
+				1A580A931ECC03B6003CE49B /* PhotoSnippetCell.swift in Sources */,
 				DAB901201E9D602F002D3CD6 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QS3LUGPAGF;
 				INFOPLIST_FILE = ParkingHermit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdjuarez.ParkingHermit;
@@ -503,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QS3LUGPAGF;
 				INFOPLIST_FILE = ParkingHermit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdjuarez.ParkingHermit;

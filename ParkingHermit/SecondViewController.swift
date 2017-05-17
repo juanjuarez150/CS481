@@ -15,8 +15,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.estimatedRowHeight = 100
-        tableView.rowHeight = UITableViewAutomaticDimension
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -24,40 +23,6 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-/*
 
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell: UITableViewCell 
-        
-        let sortedData = data.reversed() as [PassData]
-        let snippetData = sortedData[indexPath.row]
-        
-        switch snippetData.type
-        {
-        case .text:
-            cell = tableView.dequeueReusableCell(withIdentifier: "textSnippetCell", for: indexPath)
-            (cell as! TextCell).label.text = (snippetData as! TextData).textData
-            
-        case .photo:
-            cell = tableView.dequeueReusableCell(withIdentifier: "photoSnippetCell", for: indexPath)
-            (cell as! PhotoCell).photo.image = (snippetData as! PhotoData).photoData
-        }
-        
-        return cell
-    }
- 
-}
-
-extension SecondViewController: UITableViewDataSource {
-*/
 }
 
