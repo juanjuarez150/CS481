@@ -14,6 +14,7 @@
 		6BDE242D1ECBD6BE00CB8968 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */; };
 		6BDE242F1ECBD7A900CB8968 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE242E1ECBD7A900CB8968 /* Messages.framework */; };
 		6BDE24311ECBD92100CB8968 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE24301ECBD92100CB8968 /* MessageUI.framework */; };
+		6BDE24331ECBEC4800CB8968 /* Image uploaded from iOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE24321ECBEC4800CB8968 /* Image uploaded from iOS.jpg */; };
 		6BF322151ECB655C003133C9 /* ProtectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322141ECB655C003133C9 /* ProtectedViewController.swift */; };
 		6BF322171ECB6D62003133C9 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322161ECB6D62003133C9 /* RegisterPageViewController.swift */; };
 		6BF322191ECB81E9003133C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF322181ECB81E9003133C9 /* LoginViewController.swift */; };
@@ -54,6 +55,7 @@
 		6BDE242C1ECBD6BE00CB8968 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6BDE242E1ECBD7A900CB8968 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		6BDE24301ECBD92100CB8968 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6BDE24321ECBEC4800CB8968 /* Image uploaded from iOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Image uploaded from iOS.jpg"; path = "../../Image uploaded from iOS.jpg"; sourceTree = "<group>"; };
 		6BF322141ECB655C003133C9 /* ProtectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedViewController.swift; sourceTree = "<group>"; };
 		6BF322161ECB6D62003133C9 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		6BF322181ECB81E9003133C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		DAB900EC1E9C7953002D3CD6 /* ParkingHermit */ = {
 			isa = PBXGroup;
 			children = (
+				6BDE24321ECBEC4800CB8968 /* Image uploaded from iOS.jpg */,
 				DAB900ED1E9C7953002D3CD6 /* AppDelegate.swift */,
 				DAB900EF1E9C7953002D3CD6 /* FirstViewController.swift */,
 				DAB900F11E9C7953002D3CD6 /* SecondViewController.swift */,
@@ -289,6 +292,7 @@
 			files = (
 				DAB900FA1E9C7953002D3CD6 /* LaunchScreen.storyboard in Resources */,
 				DAB900F71E9C7953002D3CD6 /* Assets.xcassets in Resources */,
+				6BDE24331ECBEC4800CB8968 /* Image uploaded from iOS.jpg in Resources */,
 				DAB900F51E9C7953002D3CD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
