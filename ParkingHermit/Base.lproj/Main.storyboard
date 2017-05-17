@@ -393,13 +393,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Third View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGh-1V-hRW">
-                                <rect key="frame" x="166" y="323" width="82" height="21"/>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="campusmap.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MfX-5t-rOA">
+                                <rect key="frame" x="3" y="28" width="411" height="323"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="csusmlogo_textonlyinitials_white.png" translatesAutoresizingMaskIntoConstraints="NO" id="gMO-X4-pZe">
+                                <rect key="frame" x="0.0" y="452" width="414" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.87146845978901855" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -408,7 +409,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UN4-iI-eho" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="1086.2068965517242"/>
+            <point key="canvasLocation" x="749.27536231884062" y="1085.8695652173915"/>
         </scene>
         <!--Fourth-->
         <scene sceneID="Gxp-PS-UjS">
@@ -550,6 +551,8 @@
     </scenes>
     <resources>
         <image name="Image uploaded from iOS.jpg" width="512" height="512"/>
+        <image name="campusmap.jpg" width="1155" height="878"/>
+        <image name="csusmlogo_textonlyinitials_white.png" width="504" height="113"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
